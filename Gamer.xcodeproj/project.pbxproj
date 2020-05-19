@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295F91722473A74100BFD7DA /* DragonballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F91712473A74100BFD7DA /* DragonballView.swift */; };
+		295F91742473A99400BFD7DA /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 295F91732473A99400BFD7DA /* jf-openhuninn-1.1.ttf */; };
+		295F91762473B89D00BFD7DA /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 295F91752473B89D00BFD7DA /* crayon_1-1.ttf */; };
 		298A01BB247305940067463E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01BA247305940067463E /* AppDelegate.swift */; };
 		298A01BD247305940067463E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01BC247305940067463E /* SceneDelegate.swift */; };
 		298A01BF247305940067463E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01BE247305940067463E /* ContentView.swift */; };
 		298A01C1247305960067463E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A01C0247305960067463E /* Assets.xcassets */; };
 		298A01C4247305960067463E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298A01C3247305960067463E /* Preview Assets.xcassets */; };
 		298A01C7247305960067463E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298A01C5247305960067463E /* LaunchScreen.storyboard */; };
+		298A01CF247306960067463E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01CE247306960067463E /* Game.swift */; };
+		298A01D1247307110067463E /* GamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01D0247307110067463E /* GamesData.swift */; };
+		298A01D32473075C0067463E /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01D22473075C0067463E /* GameRow.swift */; };
+		298A01D5247308A10067463E /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01D4247308A10067463E /* GameList.swift */; };
+		298A01D7247309710067463E /* GameEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01D6247309710067463E /* GameEditor.swift */; };
+		298A01D924730C0C0067463E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01D824730C0C0067463E /* MainView.swift */; };
+		298A01DB24730C9F0067463E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01DA24730C9F0067463E /* PieChart.swift */; };
+		298A01DD24730CE20067463E /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298A01DC24730CE20067463E /* Analysis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		295F91712473A74100BFD7DA /* DragonballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonballView.swift; sourceTree = "<group>"; };
+		295F91732473A99400BFD7DA /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		295F91752473B89D00BFD7DA /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 		298A01B7247305940067463E /* Gamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298A01BA247305940067463E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298A01BC247305940067463E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		298A01C3247305960067463E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		298A01C6247305960067463E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298A01C8247305960067463E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298A01CE247306960067463E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		298A01D0247307110067463E /* GamesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesData.swift; sourceTree = "<group>"; };
+		298A01D22473075C0067463E /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		298A01D4247308A10067463E /* GameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameList.swift; sourceTree = "<group>"; };
+		298A01D6247309710067463E /* GameEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEditor.swift; sourceTree = "<group>"; };
+		298A01D824730C0C0067463E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		298A01DA24730C9F0067463E /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		298A01DC24730CE20067463E /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,17 @@
 			children = (
 				298A01BA247305940067463E /* AppDelegate.swift */,
 				298A01BC247305940067463E /* SceneDelegate.swift */,
+				298A01DC24730CE20067463E /* Analysis.swift */,
+				295F91732473A99400BFD7DA /* jf-openhuninn-1.1.ttf */,
+				295F91752473B89D00BFD7DA /* crayon_1-1.ttf */,
+				298A01CE247306960067463E /* Game.swift */,
+				298A01D0247307110067463E /* GamesData.swift */,
+				298A01D22473075C0067463E /* GameRow.swift */,
+				298A01D4247308A10067463E /* GameList.swift */,
+				298A01D6247309710067463E /* GameEditor.swift */,
+				298A01D824730C0C0067463E /* MainView.swift */,
+				295F91712473A74100BFD7DA /* DragonballView.swift */,
+				298A01DA24730C9F0067463E /* PieChart.swift */,
 				298A01BE247305940067463E /* ContentView.swift */,
 				298A01C0247305960067463E /* Assets.xcassets */,
 				298A01C5247305960067463E /* LaunchScreen.storyboard */,
@@ -133,7 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295F91762473B89D00BFD7DA /* crayon_1-1.ttf in Resources */,
 				298A01C7247305960067463E /* LaunchScreen.storyboard in Resources */,
+				295F91742473A99400BFD7DA /* jf-openhuninn-1.1.ttf in Resources */,
 				298A01C4247305960067463E /* Preview Assets.xcassets in Resources */,
 				298A01C1247305960067463E /* Assets.xcassets in Resources */,
 			);
@@ -146,9 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298A01D1247307110067463E /* GamesData.swift in Sources */,
+				298A01D924730C0C0067463E /* MainView.swift in Sources */,
 				298A01BB247305940067463E /* AppDelegate.swift in Sources */,
+				298A01D32473075C0067463E /* GameRow.swift in Sources */,
+				295F91722473A74100BFD7DA /* DragonballView.swift in Sources */,
+				298A01DD24730CE20067463E /* Analysis.swift in Sources */,
 				298A01BD247305940067463E /* SceneDelegate.swift in Sources */,
+				298A01D7247309710067463E /* GameEditor.swift in Sources */,
 				298A01BF247305940067463E /* ContentView.swift in Sources */,
+				298A01D5247308A10067463E /* GameList.swift in Sources */,
+				298A01CF247306960067463E /* Game.swift in Sources */,
+				298A01DB24730C9F0067463E /* PieChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
